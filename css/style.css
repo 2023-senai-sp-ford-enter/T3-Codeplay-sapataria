@@ -22,10 +22,11 @@ h1,
 {
 text-align: center;
 color: #000000
+
 }
 
 body {
-    background-color: #E6E6E6;
+    background-color: #e6e6e6;
     margin: 150px;
 }
 
@@ -125,6 +126,8 @@ p {
     height: 400px;
 }
 
+/* formulario */
+
 *{
     margin: 0;
     padding: 0;
@@ -144,11 +147,12 @@ p {
     
     
 
-    background-color:black;
+    background-color:#d4d4d4;
     max-width: 600px;
-    width:400px;
+    width: 400px;
     margin: 20px;
     padding: 25px;
+    border-radius: 5%;
 }
 
 input, 
@@ -159,7 +163,7 @@ textarea {
 
     
     border-color: #fff;
-    background-color: bisque;
+    background-color: white;
     color: black;
     width: 300px;
     margin: 10px;
@@ -184,10 +188,10 @@ button {
 
 button:hover{
 
-    color: burlywood;
+    color: #e6e6e6;
     transition: 0.2s;
     cursor: pointer;
-    border-color: burlywood;
+    border-color: #e6e6e6;
 }
 
 
@@ -198,7 +202,7 @@ label {
 
 label:hover {
 
-    background-color: burlywood;
+    background-color: whitesmoke;
         
     /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
 
@@ -232,6 +236,32 @@ textarea {
 .message {
 
     margin-top: 20px;
+}
+
+.h1forms{
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.h2forms {
+
+    margin-top: 20px;
+}
+
+
+.pforms {
+
+    margin-bottom: 50px;
+}
+
+.divforms {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
 }
 
 
@@ -294,6 +324,7 @@ footer {
     
 }
 
+
 #texto{
     
     width: 800px;
@@ -304,3 +335,5 @@ footer {
     text-align: center;
     margin: 10px;
 }
+
+

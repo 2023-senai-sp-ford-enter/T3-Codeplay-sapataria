@@ -73,7 +73,28 @@ p {
 }
 
 
+/* inicio do menu produtos */
+#menu_produtos{
+    width: 1000px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px auto;
+    margin-bottom: 50px;
+}
 
+#Produtos{
+    background-color: black;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+/* termin do menu produtos */
 
 .caixa1 {
     background-color: #E6E6E6;
@@ -302,4 +323,17 @@ footer {
     color: #fff;
     
 }
+
+
+#texto{
+    
+    width: 800px;
+   
+    margin: 0px auto;
+}
+#texto h2{
+    text-align: center;
+    margin: 10px;
+}
+
 

@@ -1,6 +1,7 @@
+
 .menu-navegacao {
     width: 80%;
-    margin: auto;
+    padding-top: 10px;
 }
 
 
@@ -18,16 +19,23 @@ li {
 }
 
 
-h1,
-{
+h1 {
 text-align: center;
 color: #000000
 
 }
 
 body {
+
+    background-color: #E6E6E6;
+    padding-bottom: 30px;
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+
     background-color: #e6e6e6;
     margin: 150px;
+
 }
 
 .bloco-1 p {
@@ -70,6 +78,9 @@ p {
     height: 250px;
     object-fit: cover;
     object-position: 75px 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 
@@ -129,8 +140,8 @@ p {
 /* formulario */
 
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
@@ -184,6 +195,7 @@ button {
     font-weight: bold; color: #fff;
     margin-top: 15px;
     text-transform: uppercase;
+    padding: 0px;
 }
 
 button:hover{
@@ -271,8 +283,10 @@ textarea {
 footer {
 
     background: #000;
-    margin: 0% 0% 0% 0%;
-    
+    padding: 0px;
+    margin: 0px;
+    border-radius: 10px;
+   
 
 }
 
@@ -325,6 +339,34 @@ footer {
 }
 
 
+.p {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+address{
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px;
+    padding: 10px;
+}
+
+#copyright {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px;
+    padding-top: 10px;
+}
+
+.espacorodape {
+    margin-bottom: 20px;
+}
+
+
 #texto{
     
     width: 800px;
@@ -335,5 +377,6 @@ footer {
     text-align: center;
     margin: 10px;
 }
+
 
 

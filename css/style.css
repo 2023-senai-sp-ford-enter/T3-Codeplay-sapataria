@@ -22,14 +22,20 @@ li {
 h1 {
 text-align: center;
 color: #000000
+
 }
 
 body {
+
     background-color: #E6E6E6;
     padding-bottom: 30px;
     margin-top: 100px;
     margin-left: 150px;
     margin-right: 150px;
+
+    background-color: #e6e6e6;
+    margin: 150px;
+
 }
 
 .bloco-1 p {
@@ -78,7 +84,28 @@ p {
 }
 
 
+/* inicio do menu produtos */
+#menu_produtos{
+    width: 1000px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px auto;
+    margin-bottom: 50px;
+}
 
+#Produtos{
+    background-color: black;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+/* termin do menu produtos */
 
 .caixa1 {
     background-color: #E6E6E6;
@@ -110,6 +137,8 @@ p {
     height: 400px;
 }
 
+/* formulario */
+
 *{
     margin: 0px;
     padding: 0px;
@@ -129,11 +158,12 @@ p {
     
     
 
-    background-color:black;
+    background-color:#d4d4d4;
     max-width: 600px;
-    width:400px;
+    width: 400px;
     margin: 20px;
     padding: 25px;
+    border-radius: 5%;
 }
 
 input, 
@@ -144,7 +174,7 @@ textarea {
 
     
     border-color: #fff;
-    background-color: bisque;
+    background-color: white;
     color: black;
     width: 300px;
     margin: 10px;
@@ -170,10 +200,10 @@ button {
 
 button:hover{
 
-    color: burlywood;
+    color: #e6e6e6;
     transition: 0.2s;
     cursor: pointer;
-    border-color: burlywood;
+    border-color: #e6e6e6;
 }
 
 
@@ -184,7 +214,7 @@ label {
 
 label:hover {
 
-    background-color: burlywood;
+    background-color: whitesmoke;
         
     /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
 
@@ -218,6 +248,32 @@ textarea {
 .message {
 
     margin-top: 20px;
+}
+
+.h1forms{
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.h2forms {
+
+    margin-top: 20px;
+}
+
+
+.pforms {
+
+    margin-bottom: 50px;
+}
+
+.divforms {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
 }
 
 
@@ -282,6 +338,7 @@ footer {
     
 }
 
+
 .p {
     padding: 10px;
     margin-bottom: 10px;
@@ -308,4 +365,18 @@ address{
 .espacorodape {
     margin-bottom: 20px;
 }
+
+
+#texto{
+    
+    width: 800px;
+   
+    margin: 0px auto;
+}
+#texto h2{
+    text-align: center;
+    margin: 10px;
+}
+
+
 
